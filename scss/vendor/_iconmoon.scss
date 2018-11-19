@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?xb42zm');
+  src:  url('../fonts/icomoon.eot?xb42zm#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?xb42zm') format('truetype'),
+    url('../fonts/icomoon.woff?xb42zm') format('woff'),
+    url('../fonts/icomoon.svg?xb42zm#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-envelope:before {
+  content: "\e900";
+}
+.icon-facebook:before {
+  content: "\e901";
+}
+.icon-gPlus:before {
+  content: "\e902";
+}
+.icon-ic-aa:before {
+  content: "\e903";
+}
+.icon-ic-eat:before {
+  content: "\e904";
+}
+.icon-ic-hotel:before {
+  content: "\e905";
+}
+.icon-ic-oto:before {
+  content: "\e906";
+}
+.icon-linkedin:before {
+  content: "\e907";
+}
+.icon-map:before {
+  content: "\e908";
+}
+.icon-phone:before {
+  content: "\e909";
+}
+.icon-twitter:before {
+  content: "\e90a";
+}
+.icon-web:before {
+  content: "\e90b";
+}
