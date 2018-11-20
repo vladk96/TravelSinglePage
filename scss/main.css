@@ -400,57 +400,18 @@ template {
 
 /* LAYOUT
 ===================================== */
-.header__flex {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap; }
-.header__button {
-  display: none;
-  text-decoration: none;
-  font-size: 1.4rem;
-  color: #474747; }
-@media screen and (max-width: 1170px) {
-  .header__logo {
-    margin-left: 20px; }
-  .header__nav {
-    margin-right: 20px; } }
-@media screen and (max-width: 768px) {
-  .header__logo {
-    margin-top: 2rem;
-    margin-bottom: 2rem; }
-  .header__nav {
-    display: none !important;
-    order: 1;
-    flex-direction: column;
-    width: 100%;
-    text-align: center;
-    margin-right: 0; }
-  .header__button {
-    display: block;
-    margin-right: 20px; } }
+.header {
+   /* &__logo {
 
-.nav {
-  display: flex;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding: 0; }
-  .nav__item {
-    list-style: none; }
-  .nav__link {
-    display: block;
-    font-family: 'lato-black';
-    font-size: 1.125rem;
-    text-decoration: none;
-    padding: 3.44rem 1.4rem;
-    color: #474747;
-    transition: all .4s ease; }
-  .nav__link:hover {
-    background-color: #59c45a;
-    color: #fff; }
-  @media screen and (max-width: 768px) {
-    .nav__link {
-      padding: .5rem 0; } }
+    }
+    &__nav {
+
+    }
+    &__button {
+
+    }*/ }
+  .header__flex {
+    display: flex; }
 
 /* MODULES
 ===================================== */
