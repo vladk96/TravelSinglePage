@@ -1,0 +1,38 @@
+// section tours
+.section-tours {
+    padding: 6.25rem 0;
+    text-align: center;
+    &__gallery {
+        margin-top: 3.75rem;
+    }
+    &__button {
+        margin-top: 6.125rem;
+        padding-left: 3.125rem;
+        padding-right: 3.125rem; 
+    }
+    @media screen and (max-width: 768px){
+        padding: 3.25rem 0;
+        &__button {
+            margin-top: 3.125rem;
+        }
+    }
+} // end section tours
+
+// gallery
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    &__item {
+        width: 270px;
+        margin-bottom: 1.875rem;
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+    }
+    @media screen and (max-width: 1170px){
+        justify-content: space-around;
+    }
+} // end gallery

@@ -643,9 +643,40 @@ template {
       .service-list__item {
         width: 400px; } }
 
+.section-tours {
+  padding: 6.25rem 0;
+  text-align: center; }
+  .section-tours__gallery {
+    margin-top: 3.75rem; }
+  .section-tours__button {
+    margin-top: 6.125rem;
+    padding-left: 3.125rem;
+    padding-right: 3.125rem; }
+  @media screen and (max-width: 768px) {
+    .section-tours {
+      padding: 3.25rem 0; }
+      .section-tours__button {
+        margin-top: 3.125rem; } }
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .gallery__item {
+    width: 270px;
+    margin-bottom: 1.875rem; }
+    .gallery__item img {
+      display: block;
+      width: 100%;
+      height: auto; }
+  @media screen and (max-width: 1170px) {
+    .gallery {
+      justify-content: space-around; } }
+
 /* MODULES
 ===================================== */
 .button {
+  display: inline-block;
   font-family: 'lato-semibold';
   font-size: 1.625rem;
   padding-top: 1rem;
