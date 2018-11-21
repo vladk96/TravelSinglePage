@@ -1,0 +1,22 @@
+// title
+.title {
+    display: inline-block;
+    position: relative;
+    &__text {
+        font-family: 'utm-helvetinsregular', sans-serif;
+        font-size: $h2-font-size;
+        text-transform: uppercase;
+        color: $accent;
+        margin: 0;
+        padding: 0 .875rem .875rem;
+        border-bottom: 1px solid #c2c2c2;
+    }
+    &__line {
+        position: absolute;
+        bottom: -1px;
+        left: calc(50% - 1.5625rem); // 50% minus half from width of line
+        width: 3.125rem;
+        height: 0.1875rem;
+        background-color: $accent;
+    }
+} // end title
