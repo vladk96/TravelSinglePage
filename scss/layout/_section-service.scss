@@ -1,0 +1,39 @@
+// section service
+.section-service {
+    padding: 3.25rem 1.5rem;
+    background-color: $background-color;
+    text-align: center;
+    @media screen and (min-width: 768px) {
+        padding: 6.25rem 0;
+    }
+    // @media screen and (min-width: 1170px) {
+    //     padding: 3.25rem 0;
+    // }
+} // end section service
+
+// service list
+.service-list {
+    margin-top: 2.5rem;
+    &__item {
+        text-align: center;
+    }
+    span {
+        font-size: 2.375rem;
+        color: $orange;
+    }
+    &__text {
+        font-family: Arial, sans-serif;
+        font-size: .875rem;
+        text-align: justify;
+        color: #959595;
+        line-height: 1.375rem;
+    }
+    @media screen and (min-width: 425px) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        &__item {
+            width: 400px;
+        }
+    }
+} // end service list
