@@ -44,7 +44,16 @@
             margin-left: 0;
             margin-top: -1px;
         }
-    } // end media
+    } 
+    @media screen and (max-width: 425px) {
+        &__text {
+            text-align: justify;
+        }
+        &__block {
+            padding: 2rem 1rem 1.75rem;
+        } 
+    }
+    // end media
 } // end footer
 
 // addresses
@@ -138,5 +147,12 @@
          &:hover {
             color: rgba(255,255,255,.8);
         }       
+    }
+    //media
+    @media screen and (max-width: 425px) {
+        &__submit {
+            font-size: 1.2rem;
+            padding: 1.2rem 2.5rem;
+        }
     }
 } // end form

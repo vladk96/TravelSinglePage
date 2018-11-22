@@ -567,7 +567,11 @@ template {
         font-size: 3rem; }
       .section-banner__text {
         font-size: 1.1rem;
-        padding: 0 1rem; } }
+        line-height: 1.7rem;
+        padding: 0 1rem; }
+      .section-banner__button {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem; } }
 
 .section-favorable {
   padding: 6.25rem 0;
@@ -657,6 +661,11 @@ template {
       padding: 3.25rem 0; }
       .section-tours__button {
         margin-top: 3.125rem; } }
+  @media screen and (max-width: 425px) {
+    .section-tours__button {
+      margin-top: 1.125rem;
+      padding-left: 2.125rem;
+      padding-right: 2.125rem; } }
 
 .gallery {
   display: flex;
@@ -710,6 +719,11 @@ template {
       .footer__block:last-child {
         margin-left: 0;
         margin-top: -1px; } }
+  @media screen and (max-width: 425px) {
+    .footer__text {
+      text-align: justify; }
+    .footer__block {
+      padding: 2rem 1rem 1.75rem; } }
 
 .address {
   font-family: 'lato-bold', sans-serif;
@@ -781,6 +795,10 @@ template {
     transition: all .4s ease; }
     .form__submit:hover {
       color: rgba(255, 255, 255, 0.8); }
+  @media screen and (max-width: 425px) {
+    .form__submit {
+      font-size: 1.2rem;
+      padding: 1.2rem 2.5rem; } }
 
 /* MODULES
 ===================================== */
@@ -799,6 +817,9 @@ template {
   transition: all .4s ease; }
   .button:hover {
     color: rgba(255, 255, 255, 0.8); }
+  @media screen and (max-width: 425px) {
+    .button {
+      font-size: 1.2rem; } }
 
 .title {
   display: inline-block;
