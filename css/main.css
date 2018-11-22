@@ -495,7 +495,6 @@ template {
     margin-top: 2rem;
     margin-bottom: 2rem; }
   .header__nav {
-    display: none !important;
     order: 1;
     flex-direction: column;
     width: 100%;
@@ -524,9 +523,13 @@ template {
   .nav__link:hover {
     background-color: #59c45a;
     color: #fff; }
+  .nav--show {
+    display: flex !important; }
   @media screen and (max-width: 768px) {
-    .nav__link {
-      padding: .5rem 0; } }
+    .nav {
+      display: none; }
+      .nav__link {
+        padding: .5rem 0; } }
 
 .section-banner {
   padding-top: 15rem;

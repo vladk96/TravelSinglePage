@@ -23,7 +23,6 @@
             margin-bottom: 2rem; 
         }
         &__nav {
-            display: none !important;
             order: 1;
             flex-direction: column;
             width: 100%;
@@ -60,8 +59,12 @@
         background-color: $accent;
         color: $white;
     }
+    &--show {
+        display: flex !important;
+    }
     // media
     @media screen and (max-width: 768px) {
+        display: none;
         &__link {
             padding: .5rem 0;
         }
